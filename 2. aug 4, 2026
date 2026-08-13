@@ -1,1 +1,16 @@
+class Comparator:
 
+    def compare(self):
+        num = int(input("Place a Number: "))
+        num2 = int(input("Place Another Number: "))
+
+        if num > num2:
+            print("The First Number is higher than the second number")
+        elif num2 > num:
+            print("The Second number is higher than the first number")
+        else:
+            print("The Numbers are Equal.")
+
+
+com = Comparator()
+com.compare()
