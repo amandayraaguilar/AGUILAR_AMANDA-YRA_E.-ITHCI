@@ -1,0 +1,21 @@
+
+
+using System ;
+
+
+ public class Helloworld
+ {
+     public static void Main(string [] args)
+     {
+         int age = 19;
+         string name = "Amanda Yra Aguilar";
+         double weight = 44;
+         double dec = .4;
+         bool Bool = true;
+         
+         Console.WriteLine(age);
+         Console.WriteLine(name);
+         Console.WriteLine(weight + dec);
+         Console.WriteLine(Bool);
+      }
+}
